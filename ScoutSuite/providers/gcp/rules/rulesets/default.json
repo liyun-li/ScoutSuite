@@ -348,6 +348,12 @@
                 "level": "warning"
             }
         ],
+        "functions-v1-runtime-deprecated.json": [
+            {
+                "enabled": true,
+                "level": "danger"
+            }
+        ],
         "functions-v1-environment-variables-secrets.json": [
             {
                 "enabled": true,
@@ -386,6 +392,12 @@
             {
                 "enabled": true,
                 "level": "warning"
+            }
+        ],
+        "functions-v2-runtime-deprecated.json": [
+            {
+                "enabled": true,
+                "level": "danger"
             }
         ],
         "iam-gmail-accounts-used.json": [
