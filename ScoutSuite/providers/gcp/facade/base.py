@@ -5,6 +5,7 @@ from ScoutSuite.core.console import print_exception, print_info, print_warning, 
 from ScoutSuite.providers.gcp.facade.basefacade import GCPBaseFacade
 from ScoutSuite.providers.gcp.facade.cloudresourcemanager import CloudResourceManagerFacade
 from ScoutSuite.providers.gcp.facade.cloudsql import CloudSQLFacade
+from ScoutSuite.providers.gcp.facade.essentialcontacts import EssentialContactsFacade
 from ScoutSuite.providers.gcp.facade.memorystoreredis import MemoryStoreRedisFacade
 from ScoutSuite.providers.gcp.facade.cloudstorage import CloudStorageFacade
 from ScoutSuite.providers.gcp.facade.gce import GCEFacade
@@ -43,6 +44,7 @@ class GCPFacade(GCPBaseFacade):
         self.dns = DNSFacade()
         self.stackdriverlogging = StackdriverLoggingFacade()
         self.stackdrivermonitoring = StackdriverMonitoringFacade()
+        self.essentialcontacts = EssentialContactsFacade()
 
         # lock to minimize concurrent calls to get_services()
         self.projects_services_lock = False

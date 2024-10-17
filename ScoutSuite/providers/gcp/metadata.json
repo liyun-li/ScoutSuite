@@ -35,6 +35,14 @@
           "path": "services.kms.projects.id.keyrings"
         }
       }
+    },
+    "essentialcontacts": {
+      "resources": {
+        "contacts": {
+          "cols": 2,
+          "path": "services.iam.essentialcontacts.id.contacts"
+        }
+      }
     }
   },
   "compute": {
