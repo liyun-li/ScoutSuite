@@ -232,6 +232,8 @@ class GCPFacade(GCPBaseFacade):
             endpoint = 'dns'
         elif service == 'EssentialContacts':
             endpoint = 'essentialcontacts'
+        elif service == 'AssetInventory':
+            endpoint = 'cloudasset'
         else:
             print_warning(f"Could not validate the state of the {format_service_name(service.lower())} API "
                           f"for project \"{project_id}\" (unknown endpoint), including it in the execution")
