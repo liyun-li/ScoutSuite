@@ -324,6 +324,18 @@
                 "level": "warning"
             }
         ],
+        "computeengine-ssl-policy-weak.json": [
+            {
+                "enabled": true,
+                "level": "warning"
+            }
+        ],
+        "dns-logging-for-vpc-missing.json": [
+            {
+                "enabled": true,
+                "level": "warning"
+            }
+        ],
         "dns-zones-dnssec-not-enabled.json": [
             {
                 "enabled": true,
