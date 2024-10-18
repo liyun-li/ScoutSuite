@@ -230,6 +230,8 @@ class GCPFacade(GCPBaseFacade):
             endpoint = 'redis'
         elif service == 'DNS':
             endpoint = 'dns'
+        elif service == 'EssentialContacts':
+            endpoint = 'essentialcontacts'
         else:
             print_warning(f"Could not validate the state of the {format_service_name(service.lower())} API "
                           f"for project \"{project_id}\" (unknown endpoint), including it in the execution")

@@ -1267,6 +1267,7 @@ function makeTitle(title) {
         'loadbalancer': 'Load Balancer',
         'actiontrail': 'ActionTrail',
         'objectstorage': 'Object Storage',
+        'essentialcontacts': 'Essential Contacts',
 
         // Azure and Kubernetes
         'loggingmonitoring': 'Azure Monitor',

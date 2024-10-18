@@ -342,6 +342,12 @@
                 "level": "warning"
             }
         ],
+        "essentialcontacts-absent.json": [
+            {
+                "enabled": true,
+                "level": "warning"
+            }
+        ],
         "functions-v1-allowing-http.json": [
             {
                 "enabled": true,
